@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+}
+p {
+    margin: 10px 10px 0px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px 10pxv 0px 10px;
+}
+
+.top {
+    margin: 0px 0px 50px 0px;
+    /*margin: 0px;*/
+    /*margin-bottom: 20px;*/
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    margin: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 768px){
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
+h2 {
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236, 122, 122);
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+}
+
+h2::before {
+    content: "●";
+    color: rgb(236, 122, 122);
+}
+
+p:nth-of-type(3){
+    color: rgb(97, 206, 249);
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+.kasa::first-letter {
+    color:rgb(97, 206, 249);
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.a {
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover {
+    color:rgb(245, 178, 168);
+}
+
+a:visited {
+    color: rgb(193, 234, 251);
+}
+
+
+.flex-item {
+    border: solid 3px rgb(238, 204, 204);
+    padding: 0px 0px 10px 0px;
+    margin: 0px 30px 20px 30px ;
+}
+
+div{
+    text-align: center;
+}
